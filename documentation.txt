@@ -1,0 +1,13 @@
+// pour le client
+  username = 'client'
+  password = 'client'
+
+// pour le barman
+  username = 'barman'
+  password = 'barman'
+
+// routes api
+  Beers
+  Categories
+  Orders
+  Utilisateurs
