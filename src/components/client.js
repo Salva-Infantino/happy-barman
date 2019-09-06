@@ -50,7 +50,15 @@ export default function Client() {
         </tbody>
       </table>
       <hr />
-      <form></form>
+      <form>
+        <label>Ajouter à la commande</label>
+        <select>
+          {beers.map(b => (
+            <option key={b.id}>{b.name}</option>
+          ))}
+        </select>
+        <button type="submit">Commander</button>
+      </form>
       <hr />
       <div className="myOrder">
         <table>
